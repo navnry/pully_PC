@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "华文行楷";
+    src: url("STXingkai.eot"); /* IE9 */
+    src: url("STXingkai.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("STXingkai.woff") format("woff"), /* chrome、firefox */
+    url("STXingkai.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("STXingkai.svg#STXingkai") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+

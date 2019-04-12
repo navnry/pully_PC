@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "STXingkai";
+    src: url("../font/STXingkai/STXingkai.eot"); /* IE9 */
+    src: url("../font/STXingkai/STXingkai.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */ url("../font/STXingkai/STXingkai.woff") format("woff"), /* chrome、firefox */ url("../font/STXingkai/STXingkai.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */ url("../font/STXingkai/STXingkai.svg#STXingkai") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.header-1 {
+    width: 100%;
+    line-height: 50px;
+}
+
+.header-1 span,
+.header-1 a {
+    font-size: 16px;
+    color: #666666;
+}
+
+.header-2 {
+    width: 100%;
+    height: 110px;
+    background-color: #f6f6f6;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header-2 .logo {
+    padding-top: 16px;
+}
+
+.header-2 .logo h1 a {
+    text-indent: -9999px;
+    display: block;
+    width: 93px;
+    height: 80px;
+    background: url("../images/base/logo.png") center center/cover no-repeat;
+}
+
+.header-2 .desc {
+    font-size: 28px;
+    color: #003399;
+    padding-left: 20px;
+    padding-top: 47px;
+    font-family: STXingkai, sans-serif;
+}
+
+.header-2 .desc b {
+    color: #ff0000;
+}
+
+.header-2 .contact {
+    padding-top: 25px;
+}
+
+.header-2 .contact .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header-2 .contact .tel .icon {
+    background: url("../images/base/icon_tel.png") center center /cover no-repeat;
+}
+
+.header-2 .contact .weixin .icon {
+    background: url("../images/base/icon_weixin.png") center center /cover no-repeat;
+}
+
+.header-2 .contact .txt {
+    padding-left: 10px;
+}
+
+.header-2 .contact span {
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.header-2 .contact b {
+    font-size: 30px;
+    line-height: 40px;
+    color: #ff0000;
+    font-weight: bolder;
+}
+
+.header-2 .contact .weixin {
+    padding-left: 55px;
+}
+
+.nav {
+    width: 100%;
+    overflow: hidden;
+    height: 55px;
+    background: #003399;
+}
+
+.nav .main {
+
+}
+
+.nav ul li:first-child {
+
+}
+
+.nav ul li {
+    float: left;
+    line-height: 55px;
+    width: 132px;
+    height: 55px;
+    text-align: center;
+    position: relative;
+    transform: skewX(-15deg);
+}
+
+.nav ul li.on {
+    background: #ff0000
+}
+
+.nav ul li:hover {
+    background: #ff0000
+}
+
+.nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 18px;
+    transform: skewX(15deg);
+    position: absolute;
+}
+
+.footer {
+    background: #212f32;
+    padding-top: 10px;
+}
+
+.footer .friendlink {
+    height: 60px;
+    background-color: #2c3a3c;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.footer .friendlink span,
+.footer .friendlink a {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 60px;
+}
+
+.footer-2 {
+    padding-bottom: 25px;
+}
+
+.footer-nav {
+    padding-top: 22px;
+    padding-bottom: 33px;
+}
+
+.footer-nav ul li {
+    float: left;
+    width: 106px;
+    text-align: center;
+    border-left: 1px solid #cccccc;
+    line-height: 14px;
+}
+
+.footer-nav ul li:first-child {
+    border-left: 0;
+}
+
+.footer-nav ul li a {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.footer-address p {
+    font-size: 14px;
+    line-height: 14px;
+    color: #cccccc;
+    padding-top: 20px;
+}
+
+.footer-address p:first-child {
+    font-size: 16px;
+    padding: 0;
+}
+
+.footer-address b {
+    font-size: 24px;
+    color: #ff0000;
+    font-weight: bolder;
+}
+
+.footer-logo {
+    width: 131px;
+    height: 113px;
+    margin-left: 225px;
+    margin-top: 30px;
+}
+
+.footer-weixin {
+    width: 140px;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: 15px;
+}
+
+.footer-weixin img {
+    width: 140px;
+    height: 140px;
+}
+
+.footer-weixin p {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 10px;
+    color: #cccccc;
+}
+
+.copyright {
+    font-size: 14px;
+    line-height: 50px;
+    color: #cccccc;
+    text-align: center;
+    border-top: 1px solid rgba(187, 187, 187, .5);
+}
