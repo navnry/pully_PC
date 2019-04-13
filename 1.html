@@ -1,36 +1,20 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="http://www.softwhy.com/"/>
-    <title>蚂蚁部落</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <style>
-        .antzone {
-            display: inline-block;
-            font-size: 80px;
-            line-height: 80px;
-            color: #ff0000;
-            position: relative;
-            overflow: hidden;
-            white-space: pre;
-        }
-
-        .antzone:before {
-            position: absolute;
-            left: 0;
-            top: 0;
-            color: #fff;
-            display: block;
-            height: 50%;
-            content: attr(data-content);
-            overflow: hidden;
+        .box {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(to bottom right, red, blue);
         }
     </style>
 </head>
 <body>
-<span class="antzone" data-content="蚂">蚂</span>
-<span class="antzone" data-content="蚁">蚁</span>
-<span class="antzone" data-content="部">部</span>
-<span class="antzone" data-content="部">部</span>
+<div class="box"></div>
 </body>
 </html>
