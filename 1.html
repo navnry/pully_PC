@@ -1,42 +1,36 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/1.css">
+    <meta charset="utf-8">
+    <meta name="author" content="http://www.softwhy.com/"/>
+    <title>蚂蚁部落</title>
+    <style>
+        .antzone {
+            display: inline-block;
+            font-size: 80px;
+            line-height: 80px;
+            color: #ff0000;
+            position: relative;
+            overflow: hidden;
+            white-space: pre;
+        }
+
+        .antzone:before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #fff;
+            display: block;
+            height: 50%;
+            content: attr(data-content);
+            overflow: hidden;
+        }
+    </style>
 </head>
 <body>
-<div class="block">
-    <div class="recommend">
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
-            </div>
-        </div>
-    </div>
-</div>
+<span class="antzone" data-content="蚂">蚂</span>
+<span class="antzone" data-content="蚁">蚁</span>
+<span class="antzone" data-content="部">部</span>
+<span class="antzone" data-content="部">部</span>
 </body>
 </html>
-<script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/swiper.min.js"></script>
-<script>
-    $(function () {
-        var recommendSwiper = new Swiper(".recommend .swiper-container", {
-            speed: 800,
-            slidesPerView: 5,
-            loop: true,
-            centeredSlides: true,
-            spaceBetween: 83
-        })
-    })
-</script>
