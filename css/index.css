@@ -50,7 +50,42 @@
     text-align: center;
     line-height: 64px;
 }
-.content-1 .six .ico img{
+
+.content-1 .six .ico img {
     width: 70%;
     height: auto;
+}
+
+.recommend {
+    width: 90%;
+    /*height: 300px;*/
+    margin: auto;
+    position: relative;
+}
+
+.recommend .swiper-container {
+    width: 90%;
+    height: 100%;
+}
+
+.recommend .swiper-slide {
+    cursor: pointer;
+}
+
+.recommend .swiper-slide:not(.swiper-slide-active) {
+    transform: scale(0.7);
+}
+
+.recommend .swiper-slide:not(.swiper-slide-active):before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, .5);
+}
+
+.recommend .swiper-button-next,
+.recommend .swiper-button-prev {
+    outline: none;
 }

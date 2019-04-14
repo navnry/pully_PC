@@ -117,15 +117,16 @@
                                     <span>最高输送量达7m³/h</span>
                                     <p>相比同行5m³/h，提高了40%，节省了工时和成本，收益更高</p>
                                 </div>
-                            </li>   <li>
-                            <div class="ico fl">
-                                <img src="images/home/p3.png" alt="">
-                            </div>
-                            <div class="txt fl">
-                                <span>操作范围广</span>
-                                <p>200米内可无线遥控操作，方便工人选择场地操作，省时省力\ </p>
-                            </div>
-                        </li>
+                            </li>
+                            <li>
+                                <div class="ico fl">
+                                    <img src="images/home/p3.png" alt="">
+                                </div>
+                                <div class="txt fl">
+                                    <span>操作范围广</span>
+                                    <p>200米内可无线遥控操作，方便工人选择场地操作，省时省力\ </p>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -135,11 +136,15 @@
     <div class="recommend">
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">
-
-                </div>
+                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
+                <div class="swiper-slide"><img src="images/home/ccc.png" alt=""></div>
             </div>
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
 </div>
 <div class="footer">
@@ -203,7 +208,18 @@
             }
         })
         var recommendSwiper = new Swiper(".recommend .swiper-container", {
-            speed: 800
+            speed: 600,
+            // loop: true,
+            initialSlide:2,
+            touchRatio:0,
+            slidesPerView: 5,
+            // spaceBetween: 30,
+            centeredSlides: true,
+            slideToClickedSlide: true,
+            navigation: {
+                nextEl: '.recommend .swiper-button-next',
+                prevEl: '.recommend .swiper-button-prev',
+            },
         })
     })
 </script>
