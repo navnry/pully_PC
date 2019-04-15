@@ -1,0 +1,204 @@
+.banner {
+
+}
+
+.block .main {
+    padding-bottom: 60px;
+}
+
+.breadCrumb {
+    text-align: right;
+    margin: 30px 0 54px 0;
+}
+
+.breadCrumb a {
+    font-size: 16px;
+    color: #666666;
+}
+
+.breadCrumb a:last-child {
+    color: #003399;
+}
+
+.sidebar {
+    width: 300px;
+    float: left;
+}
+
+.sidebar .sign {
+    background-color: #ffffff;
+    border: solid 2px #003399;
+}
+
+.sidebar .sign .title {
+    width: 100%;
+    height: 60px;
+    background: #003399;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #e4edff;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.sidebar .sign .title:after {
+    content: '';
+    display: block;
+    width: 0;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid #003399;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.sidebar .sign .box {
+    padding: 15px;
+}
+
+.sidebar .sign .swiper-m {
+    width: 100%;
+    border-bottom: 1px dashed #003399;
+}
+
+.sidebar .swiper-container.gallery-top {
+    width: 100%;
+    height: 194px;
+}
+
+.sidebar .swiper-button-prev,
+.sidebar .swiper-button-next {
+    outline: none;
+    width: 30px;
+    height: 60px;
+    opacity: 1;
+}
+
+.sidebar .swiper-button-prev {
+    background: url("../images/home/prev.png") center center /cover no-repeat;
+    left: 0;
+}
+
+.sidebar .swiper-button-prev:hover {
+    background: url("../images/home/prev1.png") center center /cover no-repeat;
+}
+
+.sidebar .swiper-button-next {
+    background: url("../images/home/next.png") center center /cover no-repeat;
+    right: 0;
+}
+
+.sidebar .swiper-button-next:hover {
+    background: url("../images/home/next1.png") center center /cover no-repeat;
+}
+
+.sidebar .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar .sign .swiper-m p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.sidebar .sign .zixun {
+    border-bottom: 1px dashed #003399;
+}
+
+.sidebar .sign .swiper-m {
+    padding-bottom: 30px;
+}
+
+.sidebar .sign .form-m span,
+.sidebar .sign .swiper-m span,
+.sidebar .sign .zixun span {
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bolder;
+    color: #003399;
+}
+
+.sidebar .sign .zixun {
+    padding-bottom: 25px;
+}
+
+.sidebar .sign .zixun a {
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+
+.sidebar .sign .zixun img {
+    width: 20px;
+    height: 24px;
+}
+
+.sidebar .sign .form-m input {
+    width: 270px;
+    height: 40px;
+    background-color: #ffffff;
+    border: solid 1px #cccccc;
+    margin-bottom: 20px;
+}
+
+.sidebar .sign .form-m input[type=submit] {
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.content {
+    width: 850px;
+    float: right;
+}
+
+.content .title {
+    text-align: center;
+}
+
+.content .title h2 {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bolder;
+    color: #003399;
+}
+
+.content .map {
+    width: 100%;
+    height: 468px;
+    border: solid 1px #cccccc;
+    margin-top: 25px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.content .map .anchorBL {
+    display: none;
+}
+.contact-way p{
+    padding: 16px 0;
+    border-bottom: solid #cccccc 1px;
+}
+.contact-way p img{
+    width: 60px;
+    height: 60px;
+}

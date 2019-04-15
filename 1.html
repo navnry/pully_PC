@@ -109,15 +109,11 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script>
     $(function () {
-        $(function () {
-            var h = $(".nav").offset().top;
-            console.log($(window));
-            $(window).scroll(function () {
-                var t = $(document).scrollTop()
-                t > h ? $(".nav").addClass("fixed") : $(".nav").removeClass("fixed");
-            });
+        var h = $(".nav").offset().top;
+        $(window).scroll(function () {
+            var t = $(document).scrollTop()
+            t > h ? $(".nav").addClass("fixed") : $(".nav").removeClass("fixed");
         });
-
         $(".nav ul li").on("click", function () {
             var index = $(this).index()
             $("html,body").animate({

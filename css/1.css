@@ -1,25 +1,25 @@
 
-.recommend {
+.content-4 {
     margin: 100px 0;
 }
 
-.recommend .swiper-container {
+.content-4 .swiper-container {
     width: 100%;
     height: 485px;
 }
 
-.recommend .swiper-slide {
+.content-4 .swiper-slide {
     height: 116px;
     width: auto;
     opacity: .5;
     transition: all .3s;
 }
 
-.recommend .swiper-slide img {
+.content-4 .swiper-slide img {
     width: auto;
 }
 
-.recommend .swiper-slide.swiper-slide-active {
+.content-4 .swiper-slide.swiper-slide-active {
     width: 100%;
     height: 100%;
     transform: scale(1.3);
@@ -27,7 +27,7 @@
     opacity: 1;
 }
 
-.recommend .swiper-slide.swiper-slide-active img {
+.content-4 .swiper-slide.swiper-slide-active img {
     width: 100%;
     height: 100%;
 }
