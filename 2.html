@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .test {
+            width: 300px;
+            padding: 30px 20px;
+            margin-left: 60px;
+            background: #beceeb;
+            position: relative;
+        }
+
+        .test:before {
+            content: '';
+            width: 0;
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+            border-width: 20px;
+            border-style: solid;
+            border-color: #beceeb #beceeb #ffffff #ffffff;
+            left: 0;
+            right: 0;
+            top: 60px;
+            margin: auto;
+        }
+
+        .test:after {
+            content: '';
+            width: 0;
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+            border-width: 20px 10px;
+            border-style: dashed solid solid dashed;
+            border-color: #ffffff  #ffffff transparent transparent;
+            left: 20px;
+            right: 0;
+            top: 60px;
+            margin: auto;
+        }
+
+        /*.test span {*/
+        /*width: 0;*/
+        /*height: 0;*/
+        /*font-size: 0;*/
+        /*overflow: hidden;*/
+        /*position: absolute;*/
+        /*}*/
+
+        /*.test span.bot {*/
+        /*border-width: 20px;*/
+        /*border-style: solid;*/
+        /*border-color: #ffffff #beceeb #beceeb #ffffff;*/
+        /*left: -40px;*/
+        /*top: 40px;*/
+        /*}*/
+
+        /*.test span.top {*/
+        /*border-width: 10px 20px;*/
+        /*border-style: dashed solid solid dashed;*/
+        /*border-color: transparent #ffffff #ffffff transparent;*/
+        /*left: -40px;*/
+        /*top: 60px;*/
+        /*}*/
+
+    </style>
+</head>
+<body>
+<div class="test">
+    <span class="bot"></span>
+    <span class="top"></span>
+</div>
+</body>
+</html>

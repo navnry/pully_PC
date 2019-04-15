@@ -78,11 +78,48 @@
             padding: 0 10px;
             cursor: pointer;
         }
+
+        .test {
+            width: 300px;
+            padding: 30px 20px;
+            margin-left: 60px;
+            background: #beceeb;
+            position: relative;
+        }
+
+        .test span {
+            width: 0;
+            height: 0;
+            font-size: 0;
+            overflow: hidden;
+            position: absolute;
+        }
+
+        .test span.bot {
+            border-width: 20px;
+            border-style: solid;
+            border-color: transparent #beceeb #beceeb transparent;
+            left: -40px;
+            top: 40px;
+        }
+
+        .test span.top {
+            border-width: 10px 20px;
+            border-style: dashed solid solid dashed;
+            border-color: transparent #ffffff #ffffff transparent;
+            left: -40px;
+            top: 60px;
+        }
     </style>
 </head>
 <body>
 <div class="header"></div>
 <div class="banner"></div>
+<div class="test">
+    <span class="bot"></span>
+    <span class="top"></span>
+    CSS “边框法”实现气泡对话框效果一
+</div>
 <div class="block">
     <div class="main">
         <div class="nav">
