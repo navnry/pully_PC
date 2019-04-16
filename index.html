@@ -76,12 +76,22 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <a href="index.html">
-                    <img src="images/banner/banner01.jpg" alt="">
+                    <img src="images/banner/banner_h1.jpg" alt="">
                 </a>
             </div>
             <div class="swiper-slide">
                 <a href="index.html">
-                    <img src="images/banner/banner01.jpg" alt="">
+                    <img src="images/banner/banner_h2.jpg" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="index.html">
+                    <img src="images/banner/banner_h3.jpg" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="index.html">
+                    <img src="images/banner/banner_h4.jpg" alt="">
                 </a>
             </div>
         </div>
@@ -917,9 +927,10 @@
         });
         $(".video-layer").on("click", function () {
             $(this).hide()
-        }).onmousewheel(function (e) {
-            e.preventDefault();
-        });
+        })
+        //     .onmousewheel(function (e) {
+        //     e.preventDefault();
+        // });
         $(".video-wrapper").on("click", function (e) {
             e.stopPropagation()
         })

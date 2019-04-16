@@ -223,7 +223,7 @@
     padding-top: 19px;
 }
 
-.content-2 .desc {
+.content-2 .cp-top {
     width: 90px;
     height: 3px;
     background-color: #ff0000;
@@ -535,7 +535,7 @@
     line-height: 22px;
 }
 
-.content-6 .roll ul li .desc {
+.content-6 .roll ul li .cp-top {
     padding: 8px 22px 0 22px;
     line-height: 28px;
     overflow: hidden;
@@ -704,12 +704,12 @@
     height: 260px;
 }
 
-.content-8 .container .right .desc {
+.content-8 .container .right .cp-top {
     width: 300px;
     padding: 10px;
 }
 
-.content-8 .container .right .desc p {
+.content-8 .container .right .cp-top p {
     font-size: 16px;
     color: #666666;
     line-height: 24px;
